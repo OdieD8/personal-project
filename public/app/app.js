@@ -11,10 +11,15 @@ angular.module("familyShare", ["ui.router"]).config(function($urlRouterProvider,
 		templateUrl: "app/home/homeTmpl.html",
 		controller: "homeCtrl"
 	})
-	.state("upload-storage", {
-		url: "/upstore",
-		templateUrl: "app/upload-storage/upstoreTmpl.html",
-		controller: "upstoreCtrl"
+	.state("upload", {
+		url: "/upload",
+		templateUrl: "app/upload/uploadTmpl.html",
+		controller: "uploadCtrl"
+	})
+	.state("storage", {
+		url: "/storage",
+		templateUrl: "app/storage/storageTmpl.html",
+		controller: "storageCtrl"
 	})
 	.state("forum", {
 		url: "/forum",
@@ -27,4 +32,5 @@ angular.module("familyShare", ["ui.router"]).config(function($urlRouterProvider,
 		controller: "chatCtrl"
 	})
 	$urlRouterProvider.otherwise("/home");
+		
 });

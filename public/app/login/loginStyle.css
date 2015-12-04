@@ -2,11 +2,11 @@ body {
     font-family: arial;
      
     background-color: #323B55;
-    background-image: -webkit-linear-gradient(bottom, lightblue 0%, #323B55 100%);
+    /*background-image: -webkit-linear-gradient(bottom, lightblue 0%, #323B55 100%);
     background-image: -moz-linear-gradient(bottom, lightblue 0%, #323B55 100%);
     background-image: -o-linear-gradient(bottom, lightblue 0%, #323B55 100%);
     background-image: -ms-linear-gradient(bottom, lightblue 0%, #323B55 100%);
-    background-image: linear-gradient(bottom, lightblue 0%, #323B55 100%);
+    background-image: linear-gradient(bottom, lightblue 0%, #323B55 100%);*/
 }
 
 .login-container {
@@ -19,7 +19,6 @@ body {
 #login-header {
     text-align: center;
     color: white;
-    text-decoration: underline;
     font-weight: bold;
     font-size: 30px;
 }
@@ -50,7 +49,7 @@ body {
 #login-box input[type="text"],#login-box input[type="password"] {
     width: 100%;
     height: 40px;
-    positon: relative;
+    position: relative;
     margin-top: 7px;
     font-size: 14px;
     color: #444;
@@ -158,13 +157,13 @@ body {
 }
 
 .footer-link:active {
-    color: orange;
+    color: lightblue;
 }
 
 .footer-link:visited {
-    color: #5466da
+    color: #5466da;
 }
 
 .footer-link:hover {
-    color: black;
+    color: orange;
 }

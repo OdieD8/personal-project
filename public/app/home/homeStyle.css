@@ -2,7 +2,7 @@ body {
    margin:0;
    padding:0;
    height:100%;
-   background-color: lightgrey;
+   background-color: white;
 }
 
 #home-menu > ul {
@@ -136,17 +136,28 @@ body {
     width: 200px;
 }
 
-.home-header {
+.home-header a:link {
     width: 250px;
     text-align: left;
     color: #282828;
-    text-decoration: underline;
     font-weight: bold;
     font-size: 25px;
+    text-decoration: none;
     position: relative;
     left: 20px;
     top: 20px;
-    
+}
+
+.home-header a:active {
+    color: #282828;
+}
+
+.home-header a:hover {
+    color: #282828;
+}
+
+.home-header a:visited {
+    color: #282828;
 }
 
 .home-folder {
@@ -203,7 +214,7 @@ body {
 }
 
 .home-email:active {
-  color: orange;
+  color: lightblue;
 }
 
 .home-email:visited {
@@ -211,5 +222,6 @@ body {
 }
 
 .home-email:hover {
-  color: black;
+  color: orange;
+  font-weight: bold;
 }

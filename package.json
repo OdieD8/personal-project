@@ -1,0 +1,29 @@
+{
+  "name": "personal-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OdieD8/personal-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OdieD8/personal-project/issues"
+  },
+  "homepage": "https://github.com/OdieD8/personal-project#readme",
+  "dependencies": {
+    "busboy-body-parser": "0.0.9",
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "express-session": "^1.12.1",
+    "gridfs-stream": "^1.1.1",
+    "mongoose": "^4.2.8",
+    "passport": "^0.3.2"
+  }
+}
