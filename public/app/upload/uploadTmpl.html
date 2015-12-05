@@ -1,6 +1,12 @@
-<form method="POST" action="/files/upload" enctype="multipart/form-data">
+<!--<form method="POST" upload-dir action="/files/upload" enctype="multipart/form-data">
   <input type="text" name="name" value="001"/>
-  <input type="file" name="files" multiple/>
+  <input type="file" name="files" multiple accept=".jpg,.png,.jpeg,.txt,.pdf"/>
   </br>
-  <input type="submit" value="Upload"/>
-</form>
+  <input type="submit" value="Upload" upload-dir/>
+</form>-->
+
+<input type="file" upload-dir files="files" accept=".jpg,.png,.jpeg,.txt,.pdf">
+
+  <div ng-repeat="file in files">
+    <img ng-src="{{file.Location}}" style="max-width: 300px;">
+  </div>

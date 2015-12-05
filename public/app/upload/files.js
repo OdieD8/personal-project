@@ -18,7 +18,7 @@ router.post("/upload", function(req,res) {
 		var fs = require("fs");
 		
 		fs.readFile(files.path, function(err, data) {
-			var path="./public/app/upload/"	+ files.originalFilename;
+			var path="./public/app/upload/uploadedFiles/" + files.originalFilename;
 					
 			fs.writeFile(path, data, function(err) {
 				if(err) console.log(err);
